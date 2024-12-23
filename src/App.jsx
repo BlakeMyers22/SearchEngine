@@ -54,10 +54,10 @@ function App() {
         <div className="flex flex-col items-center justify-center mb-12">
           <PrismLogo />
           <h1 className="text-5xl font-bold rainbow-text mb-4">
-            Prism
+            ROUSIX
           </h1>
           <p className="text-gray-400 text-lg mb-8">
-            Illuminate Your Search
+            Enhance Your Discovery
           </p>
         </div>
         
@@ -69,7 +69,7 @@ function App() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 className="flex-1 px-6 py-3 bg-transparent border-none focus:outline-none text-white placeholder-gray-500"
-                placeholder="Ask a question."
+                placeholder="What would you like to know?"
               />
               <button
                 type="submit"
