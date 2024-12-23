@@ -33,7 +33,7 @@ exports.handler = async (event) => {
     const response = completion.data.choices[0].message.content;
     
     const results = [{
-      title: "AI Search Result",
+      title: "Search Result",
       snippet: response,
       url: "#"
     }];
