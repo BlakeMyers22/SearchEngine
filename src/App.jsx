@@ -69,7 +69,7 @@ function App() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 className="flex-1 px-6 py-3 bg-transparent border-none focus:outline-none text-white placeholder-gray-500"
-                placeholder="ask a question"
+                placeholder="Ask a question."
               />
               <button
                 type="submit"
